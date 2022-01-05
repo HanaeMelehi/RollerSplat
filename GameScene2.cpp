@@ -88,9 +88,9 @@ bool GameScreen::init()
 
     return true;
 }
-void GameScene::GoToGameScene(cocos2d::Ref* sender)
+void GameScene::GoToGameScene3(cocos2d::Ref* sender)
 {
-    auto scene = GameScene::createScene();
+    auto scene = GameScene3::createScene();
 
     Director::getInstance()->replaceScene(TransitionFade::create(TRANSITION_TIME, scene));
 }
